@@ -1,1 +1,38 @@
-# Zenodo integration trigger
+{
+  "title": "Analysis code for: Paper Mill Subtypes in Medical AI: Multi-Signal NLP Detection Reveals Heterogeneous Fraud Fingerprints",
+  "upload_type": "software",
+  "description": "NLP pipeline for detecting fraud-associated characteristics (tortured phrases, formulaic structure, AI-generated text markers, citation anomalies, co-authorship network patterns, cross-document similarity) in the medical artificial intelligence literature. Trains a supervised classifier using Retraction Watch labels and estimates prevalence via Positive-Unlabelled learning correction. v2.0.0 includes bug fixes identified during analysis (see CHANGELOG.md); no changes to pre-registered classifier, weights, or feature definitions. Analysis plan pre-registered on OSF (DOI: 10.17605/OSF.IO/JB4T6). v1.0.0 (pre-registered code): DOI 10.5281/zenodo.19481250.",
+  "creators": [
+    {
+      "name": "Farquhar, Hayden",
+      "affiliation": "Independent Researcher, Finley, NSW, Australia",
+      "orcid": "0009-0002-6226-440X"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "paper mill detection",
+    "research integrity",
+    "medical AI",
+    "NLP",
+    "bibliometrics",
+    "tortured phrases",
+    "positive-unlabelled learning",
+    "retraction watch"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.17605/OSF.IO/JB4T6",
+      "relation": "isSupplementedBy",
+      "resource_type": "publication-preregistration",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.19481250",
+      "relation": "isNewVersionOf",
+      "resource_type": "software",
+      "scheme": "doi"
+    }
+  ],
+  "version": "3.0.0"
+}
