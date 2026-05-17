@@ -24,9 +24,9 @@
     {
       "identifier": "10.17605/OSF.IO/JB4T6",
       "relation": "isSupplementedBy",
-      "resource_type": "publication-preregistration",
+      "resource_type": "publication-other",
       "scheme": "doi"
     }
   ],
-  "version": "3.0.0"
+  "version": "3.0.1"
 }
